@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model - Css</title>
+    <style>
+      h1 {
+        background-color: red;
+        /* border-style: solid;
+            border-width: 3px;
+            border-color: black */
+        /* border-radius: 5px; */
+        /* lets assume that i want to add border only to top-left */
+        /* border-top-left-radius: 5px; */
+        border: 5px solid black;
+        border-radius: 5px;
+        width: 500px;
+        height: 45px;
+        /* margin-left: 125px;
+        margin-top: 25px;
+        margin-right: 125px;
+        margin-left: 25px; */
+        /* add margin like top bottom left right  */
+        margin: 25px 250px;
+        
+         /* lets assume that i want to add margin like top bottom left right */
+         margin: 25px 250px 25px 250px;
+      }
+      .para1 {
+        background-color: rgb(130, 130, 180);
+        /* border-left: 5px solid blue; */
+        border: 5px solid black;
+        border-radius: 5px;
+        /* padding-left: 10px;
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 25px; */
+        /* I can assign all the padding in one line */
+
+        /* padding: (padding-left, padding-top, padding-right, padding-bottom);  */
+        padding: 10px 25px 10px 25px;
+        margin: 15px;
+      }
+      .para2 {
+        background-color: rgb(64, 142, 64);
+        /* border-right: 5px solid black */
+        border: 5px solid black;
+        border-radius: 5px;
+        /* padding--> top bottom left right */
+        padding: 25px 10px ;
+      }
+      .para3 {
+        background-color: rgb(212, 83, 208);
+        /* border-top: 5px solid yellowgreen; */
+        border: 5px solid black;
+        border-radius: 5px;
+      }
+      .para4 {
+        background-color: rgb(228, 88, 41);
+        /* border-bottom: 5px solid rgb(90, 213, 207); */
+        border: 5px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to box-model</h1>
+    <p class="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iure aut
+      laboriosam odio quisquam veniam, sit veritatis assumenda earum, adipisci
+      minus aspernatur natus?
+    </p>
+    <p class="para2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officiis
+      magnam natus delectus fugit hic, non magni? Dolore dolores consectetur
+      repellat optio, similique eligendi magni assumenda voluptas sed et
+      praesentium reprehenderit alias delectus nihil officiis, obcaecati maxime
+      fuga sit, dicta ducimus. Voluptate corrupti ex nemo unde numquam quas sit
+      quasi!
+    </p>
+
+    <p class="para3">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione incidunt
+      id neque eligendi aperiam accusamus iusto! Animi rerum odio doloribus fuga
+      dignissimos minus dolore ex, maiores ab! Debitis quidem recusandae
+      veritatis id ducimus ab.
+    </p>
+    <p class="para4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+      praesentium molestias atque delectus illo. Placeat, commodi eligendi
+      deleniti corporis molestiae exercitationem laborum et pariatur at sint
+      porro quibusdam! Quis, fugit officiis, dolorem veniam voluptates culpa
+      nesciunt exercitationem porro nemo deleniti, rem illo neque temporibus
+      eius?
+    </p>
+  </body>
+</html>
