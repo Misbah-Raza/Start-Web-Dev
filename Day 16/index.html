@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Property - Css</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        border: 2px solid red;
+        margin: 25px 125px;
+        padding: 25px 10px;
+      }
+      span {
+        border: 2px solid greenyellow;
+        display: block;
+        margin: 25px 125px;
+        padding: 25px 10px;
+      }
+      .in-bl{
+        border: 2px solid greenyellow;
+        display: inline-block;
+        margin: 25px 125px;
+        padding: 25px 10px; 
+      }
+    </style>
+  </head>
+  <body>
+    <div>Iam Block element</div>
+    <div>Iam another block element</div>
+    <span>
+      iam inline element i try appear in same line but now iam converted to
+      block
+    </span>
+    <span>
+      iam inline element i try appear in same line but now iam converted to
+      block
+    </span>
+    <span class="in-bl">
+      iam inline element but you can apply custom Property iam "inline-block" element
+    </span>
+  </body>
+</html>
