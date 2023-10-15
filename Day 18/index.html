@@ -1,15 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Position - Css</title>
-</head>
-<body>
+    <style>
+      div {
+        border: 2px solid black;
+      }
+      img {
+        margin: 10px;
+      }
+      .img-02{
+        /* position: relative;
+        top: 200px;
+        left: 300px; */
+/*         
+        position: absolute;
+        top: 300px;
+        left: 400px; */
+      }
+      .cnt {
+        position: relative;
+        height: 800px;
+        background-color: aquamarine;
+      }
+      .img-03 {
+        position: fixed;
+      }
+      .img-01 {
+        position: sticky;
+        top: 0;
+      }
+      .box{
+        background-color: blueviolet;
+        height: 8900px;
+      }
+    </style>
+  </head>
+  <body>
     <div class="cnt">
-        <img src="https://unsplash.com/photos/1wCrS85PelE" alt="hi">
-        <img src="https://unsplash.com/photos/a-snow-covered-mountain-is-seen-in-the-distance-lI3NFujArjc" alt="" width="300" >
-        <img src="https://unsplash.com/t/nature" alt="">
+      <img
+        src="img1.jpg"
+        alt="Img-01"
+        width="200px"
+        height="200px"
+        class="img-01"
+      />
+      <img
+        src="img2.jpg"
+        alt="Img-02"
+        width="200px"
+        height="200px"
+        class="img-02"
+      />
+      <img
+        src="img3.jpg"
+        alt="Img-03"
+        width="200px"
+        height="200px"
+        class="img-03"
+      />
+      <img
+        src="img4.jpg"
+        alt="Img-04"
+        width="200px"
+        height="200px"
+        class="img-04"
+      />
     </div>
-</body>
+    <div class="box">
+
+    </div>
+  </body>
 </html>
